@@ -1,4 +1,3 @@
-
 import 'flutter_rain_effect_platform_interface.dart';
 
 class FlutterRainEffect {

@@ -1,5 +1,6 @@
 name: flutter_rain_effect
-description: A customizable rain effect package for Flutter applications
+description: Flutter Rain Effect is a customizable package for adding rain and splash effects to Flutter apps. It supports multiple platforms, allowing easy adjustments for rain intensity, color, size, and even using text for raindrops.
+
 version: 0.0.4
 homepage: https://github.com/YoRuHub/flutter_rain_effect
 
@@ -10,9 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
-  web: ^0.5.1
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
