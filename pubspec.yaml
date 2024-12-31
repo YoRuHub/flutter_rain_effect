@@ -1,0 +1,36 @@
+name: flutter_rain_effect
+description: A customizable rain effect package for Flutter applications
+version: 0.0.3
+homepage: https://github.com/YoRuHub/flutter_rain_effect
+
+environment:
+  sdk: ^3.6.0
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^0.5.1
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.flutter_rain_effect
+        pluginClass: FlutterRainEffectPlugin
+      ios:
+        pluginClass: FlutterRainEffectPlugin
+      linux:
+        pluginClass: FlutterRainEffectPlugin
+      macos:
+        pluginClass: FlutterRainEffectPlugin
+      windows:
+        pluginClass: FlutterRainEffectPluginCApi
