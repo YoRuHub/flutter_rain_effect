@@ -16,7 +16,7 @@ Add this package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_rain_effect: ^0.0.5
+  flutter_rain_effect: ^0.0.6
 ```
 
 Then, run `flutter pub get` to install the package.

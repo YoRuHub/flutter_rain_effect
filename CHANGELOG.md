@@ -19,3 +19,6 @@
 - Removed unnecessary files and ensured all code follows standard Dart formatting.
 - Refactored rain effect logic to improve performance and support better customization options.
 - Added example code to showcase the use of the package with different intensities and splash effects.
+
+## [1.0.0] - 2024-12-31
+- Shortened the package description to meet pub.dev requirements (60-180 characters).
