@@ -11,3 +11,11 @@
 
 ## [0.0.4] - 2024-12-31
 - Added platform-specific implementations for Windows, macOS.
+
+## [0.0.5] - 2024-12-31
+- Fixed minor formatting issues in lib/src/flutter_rain_effect.dart and lib/src/flutter_rain_effect_method_channel.dart.
+- Corrected version constraints in pubspec.yaml to ensure compatibility with latest Flutter and Dart versions.
+- Updated README for better clarity and added missing documentation for functions and classes.
+- Removed unnecessary files and ensured all code follows standard Dart formatting.
+- Refactored rain effect logic to improve performance and support better customization options.
+- Added example code to showcase the use of the package with different intensities and splash effects.
