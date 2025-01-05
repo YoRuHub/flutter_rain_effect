@@ -22,3 +22,6 @@
 
 ## [1.0.0] - 2024-12-31
 - Shortened the package description to meet pub.dev requirements (60-180 characters).
+
+## [1.0.1] - 2024-01-05
+- Removed `splashCharacter` from the arguments as it is no longer needed.

@@ -16,7 +16,7 @@ Add this package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_rain_effect: ^0.0.6
+  flutter_rain_effect: ^1.0.1
 ```
 
 Then, run `flutter pub get` to install the package.
@@ -45,7 +45,6 @@ import 'package:flutter_rain_effect/flutter_rain_effect.dart';
 RainEffect(
   intensity: 0.8, // Set rain intensity
   rainCharacter: ['|', '/', '\\'], // Use characters for rain drops
-  splashCharacter: '*', // Use a character for splash effects
   rainColors: [Colors.blue, Colors.cyan], // Define rain drop colors
   minRainSize: 2.0, // Minimum size of rain drops
   maxRainSize: 6.0, // Maximum size of rain drops
@@ -73,7 +72,6 @@ SizedBox(
 |-------------------|------------------------------------------------------------|---------------------|
 | `intensity`       | Adjusts the density of the rain effect (0.0 to 1.0).        | `1.0`               |
 | `rainCharacter`   | List of characters to use for rain drops.                   | `null` (circular drops) |
-| `splashCharacter` | Character to use for splash effects.                        | `null`              |
 | `rainColors`      | List of colors for rain drops.                              | `[Colors.blue]`     |
 | `minRainSize`     | Minimum size of rain drops.                                 | `2.0`               |
 | `maxRainSize`     | Maximum size of rain drops.                                 | `5.0`               |
@@ -104,7 +102,6 @@ class MyApp extends StatelessWidget {
           child: RainEffect(
             intensity: 0.5,
             rainCharacter: ['|', '/', '\\'],
-            splashCharacter: '*',
             rainColors: [Colors.lightBlue, Colors.blue],
             minRainSize: 3.0,
             maxRainSize: 8.0,

@@ -16,9 +16,6 @@ class RainEffect extends StatefulWidget {
   /// A list of characters used to represent raindrops. If null, default representation is used.
   final List<String>? rainCharacter;
 
-  /// The character used to represent water splashes. If null, default representation is used.
-  final String? splashCharacter;
-
   /// A list of colors for raindrops. If null, the default color is blue.
   final List<Color>? rainColors;
 
@@ -32,7 +29,6 @@ class RainEffect extends StatefulWidget {
     super.key,
     this.intensity = 1.0,
     this.rainCharacter,
-    this.splashCharacter,
     this.rainColors = const [Colors.blue],
     this.minRainSize = 2.0,
     this.maxRainSize = 5.0,

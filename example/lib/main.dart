@@ -27,10 +27,9 @@ class MyApp extends StatelessWidget {
             child: const RainEffect(
               intensity: 1.0,
               rainColors: [Colors.lightBlue, Colors.cyan],
-              splashCharacter: '*',
               minRainSize: 3.0,
               maxRainSize: 8.0,
-              rainCharacter: [],
+              rainCharacter: [], // ['a', 'あ', '!', '😀'],
             ),
           ),
         ),
